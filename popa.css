@@ -1,0 +1,229 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    background-color: #1D2F30;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    padding-left: 165px;
+    padding-right: 165px;
+}
+.part1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.spisok a{
+    margin-right: 64px;
+    
+}
+.part2{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 60px;
+}
+.part1 img{
+    margin-right: 125px;
+}
+
+.part2 img{
+    margin-right: 64px;
+}
+.container-banner{
+    background-image: url(photo_2025-03-02_13-36-46.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.text-banner a{
+    color: #BAE249;
+    margin-top: 24px;
+}
+.text-banner{
+    color: white;
+    padding-bottom: 115px;
+    padding-top: 115px;
+}
+.text-banner h1{
+    width: 688px;
+    line-height: 60px;
+    font-size: 60px;
+}
+.text-banner p{
+    width: 635px;
+    line-height: 24px;
+    font-size: 16px;
+    margin-top: 16px;
+}
+/* слайдер */
+.slider-container {
+    width: 100%;
+    max-width: 1200px;
+    overflow: hidden;
+    position: relative;
+    justify-content: space-between;
+}
+.slider-wrapper {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.slider-wrapper p{
+    margin-top: 8px;
+}
+.slide {
+    min-width: 25%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.card {
+    background-color: #2c3e35;
+    
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.card img {
+    max-width: 100%;
+}
+.card h2 {
+    color: #f3f4f6;
+    margin-top: 10px;
+}
+.card p {
+    color: #9ca3af;
+}
+.button {
+    background-color:#2c3e35;
+    color: white;
+    padding: 10px 20px;
+    border: 1px #BAE249 solid;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.nav-buttons {
+    
+    bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.nav-buttons button {
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/* слайдер конец */
+.container-background{
+   background-color: #1D2F30; 
+}
+.nav-buttons p{
+    margin-top: 10px;
+}
+.container-img{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.container h2{
+    color: #FFFFFF;
+    width: 355px;
+}
+.container-img img{
+    width: 825px;
+    height: 536px;
+    margin-right: 30px;
+}
+.pi p{
+    margin-top: 16px;
+    color: #506829;
+}
+.green-cont img{
+    padding-left: 16px;
+    padding-right: 73px;
+    padding-bottom: 24px;
+    width: 166px;
+    height: 22px;
+}
+.green-cont{
+    background-color: #BAE249;
+    width: 255px;
+}
+.green-cont h3{
+    color: #1D2F30;
+    margin-left: 16px;
+    margin-top: 16px;
+    margin-right: 39px;
+    margin-bottom: 8px;
+}
+.green-cont .pi{
+    padding-top: 60px;
+    padding-left: 16px ;
+    padding-right: 16px;
+    width: 232px;
+    height: 312px;
+}
+.container-bottom{
+    background-image: url(denis.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+fieldset{
+    border: none;
+    margin-bottom: 10px;
+}
+.container-bottom h3{
+    padding-top: 60px;
+    margin-bottom: 16px;
+    font-size: 42px;
+    color: #FFFFFF;
+}
+.container-bottom p{
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.kaka h2{
+    margin-top: 57px;
+    font-size: 42px;
+}
+.form1{
+    display: block;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 262px;
+}
+.form-button{
+    height: 40px;
+    width: 145px;   
+    background-color: #BAE249;
+    border: none;
+}
+.footer-background{
+    background-color:#0B1919;
+
+}
+.pic{
+    background-color: #0B1919;
+    margin-right: 30px;
+    border: none;
+    display: block;
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    border: none;
+}

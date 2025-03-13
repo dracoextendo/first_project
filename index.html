@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+    <meta charset="utf-8">
+    <title>blood fire fire fire fire fire fire</title>
+    <link rel="stylesheet" href="popa.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="header">
+     <div class="container">
+       <div class="menu">
+        <div class="part1">
+          <img src="logo.png" alt="logo">
+          <div class="spisok">
+            <a href="#">Каталог</a>
+            <a href="#">Галерея</a>
+            <a href="#">О лаборатории</a>
+            <a href="#">Контакты</a>
+          </div>
+        </div>
+        <div class="part2">
+         <img src="search.png" alt="search">
+         <img src="log-in.png" alt="log-in">
+        </div>
+       </div>
+      </div>
+    </div>
+     <div class="container-banner">
+      <div class="container">
+        <div class="text-banner">
+          <h1>Крупнейшая коллекция природных артефактов</h1>
+          <p>Являясь всего лишь частью общей картины, интерактивные прототипы, которые представляют собой яркий пример европейского типа политической и социальной культуры.</p>
+          <a href="#">Исследовать&nbsp;<img src="Arrow 1.png" alt="arrow"></a>
+        </div>
+      </div>
+     </div>
+     <div class="container-background">
+      <div class="container">
+       <div class="slider-container">
+       <div class="slider-wrapper">
+           <div class="slide">
+               <div class="card">
+                   <img src="photo_2025-03-03_14-11-50.jpg" alt="Plant">
+                   <h2>Fig. 1 (Plant)</h2>
+                   <p>Активно развивающиеся страны третьего мира своевременно верифицированы.</p>
+                   <button class="button">Подробнее</button>
+               </div>
+           </div>
+           <div class="slide">
+               <div class="card">
+                   <img src="photo_2025-03-03_14-11-50 (2).jpg" alt="Flower">
+                   <h2>Fig. 2 (Flower)</h2>
+                   <p>Синтетическое тестирование влечет за собой процесс внедрения условий.Блад фая фая</p>
+                   <button class="button">Подробнее</button>
+               </div>
+           </div>
+           <div class="slide">
+               <div class="card">
+                   <img src="photo_2025-03-03_14-11-50 (3).jpg" alt="Leaf">
+                   <h2>Fig. 3 (Leaf)</h2>
+                   <p>Участники прогресса будут предоставлены сами себе для работы.Блад фая фая фая фая</p>
+                   <button class="button">Подробнее</button>
+               </div>
+          </div>
+          <div class="slide">
+              <div class="card">
+                  <img src="photo_2025-03-03_14-11-50 (4).jpg" alt="Wood">
+                  <h2>Fig. 4 (Wood)</h2>
+                  <p>Базовый вектор развития определяет новые предложения.Блад фая фая фая</p>
+                  <button class="button">Подробнее</button>
+              </div>
+          </div>
+       </div>
+      <div class="nav-buttons">
+          <button onclick="prevSlide()"><img src="Arrow 2.png"></button>
+          <p> 1 из 3</p>
+          <button onclick="nextSlide()"><img src="Arrow 3.png"></button>
+      </div>
+      </div>
+      </div>
+  <script>
+      let currentIndex = 0;
+      const slides = document.querySelectorAll('.slide');
+      const totalSlides = slides.length;
+
+      function updateSlider() {
+          const sliderWrapper = document.querySelector('.slider-wrapper');
+          sliderWrapper.style.transform = `translateX(-${currentIndex * 25}%)`;
+      }
+
+      function prevSlide() {
+          currentIndex = (currentIndex === 0) ? totalSlides - 1 : currentIndex - 1;
+          updateSlider();
+      }
+
+      function nextSlide() {
+          currentIndex = (currentIndex === totalSlides - 1) ? 0 : currentIndex + 1;
+          updateSlider();
+      }
+  </script>
+  <div class="container">
+    <div class="kaka">
+      <h2>Новые артефакты</h2>
+    </div>  
+      <div class="container-img">
+       <img src="photo_2025-03-03_14-11-50 (5).jpg" alt="#">
+       <div class="green-cont">
+         <h3>Kurische Nehrung 24</h3>
+         <div class="pi">
+          <p>Вот вам яркий пример современных тенденций - начало повседневной работы по формированию позиции выявляет срочную потребность методов управления процессами.</p> 
+          <p>Есть над чем задуматься: представители современных социальных резервов своевременно верифицированы.</p>
+         </div>
+          <a href="#"><img src="Frame 6.png" alt="#"></a>
+       </div>
+      </div>
+    </div>
+    <div class="container-bottom">
+      <div class="container">
+        <h3>Помочь проекту</h3>
+        <p>Равным образом, экономическая повестка сегодняшнего дня не даёт нам иного выбора, кроме определения прогресса профессионального сообщества. Как принято считать, элементы политического процесса рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок. </p>
+        <div class="form">
+          <div class="form-label">
+           <fieldset>
+             <label class="form1"><input class="form1" type="text" required placeholder="&nbsp;&nbsp;&nbsp;Имя"></label>
+           </fieldset>
+           <fieldset>
+             <label class="form1"><input class="form1" type="email" required placeholder="&nbsp;&nbsp;&nbsp;Email"></label>
+           </fieldset>
+          </div>
+         <button class="form-button">Отправить</button>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-background">
+        <div class="footer-icons">
+          <button class="pic"><img src="yt.png" alt="#"></button>
+          <button class="pic"><img src="ig.png" alt="#"></button>
+          <button class="pic"><img src="fb.png" alt="#"></button>
+          <button class="pic"><img src="twit.png" alt="#"></button>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
