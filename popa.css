@@ -10,8 +10,8 @@
     justify-content: space-between;
 }
 .container{
-    padding-left: 165px;
-    padding-right: 165px;
+    padding-left: 21%;
+    padding-right: 21%;
 }
 .part1{
     display: flex;
@@ -159,8 +159,8 @@ a{
     width: 355px;
 }
 .container-img img{
-    width: 825px;
-    height: 536px;
+    width: clamp(591px, 52vw, 836px);
+    height: 100%;
     margin-right: 30px;
 }
 .pi p{
