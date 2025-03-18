@@ -110,14 +110,13 @@ a{
 .card p {
     color: #9ca3af;
     height: 168px;
-    width: 223px;
     font-size: 16px;
     padding-right: 20px;
     padding-left: 20px;
 }
 .button {
     background-color:#1D2F30;
-    color: white;
+    color: #BAE249;
     padding: 10px 20px;
     border: 1px #BAE249 solid;
     cursor: pointer;
@@ -170,9 +169,7 @@ a{
 }
 .green-cont img{
     padding-left: 16px;
-    padding-right: 73px;
-    padding-bottom: 24px;
-    width: 166px;
+    width: 43px;
     height: 22px;
 }
 .green-cont{
@@ -222,12 +219,14 @@ fieldset{
     margin-bottom: 10px;
     height: 30px;
     width: 262px;
+    padding-left: 10px;
 }
 .form-button{
     height: 40px;
     width: 145px;   
     background-color: #BAE249;
     border: none;
+    margin-bottom: 60px;
 }
 .footer-background{
     background-color:#0B1919;
@@ -251,6 +250,9 @@ a:hover{
 a:active{
     border: 1px solid #bae250;
 }
+a:disabled{
+    color: #688B05;
+}
 
 .part2 img:hover{
     color: #91AC46;
@@ -258,4 +260,21 @@ a:active{
 }
 .part2 img:active{
     color: #91AC46
+}
+.green-cont a{
+    display: flex;
+    width: 182px;
+    height: 22px;
+    margin-left: 16px;
+    color: #0B1919;
+}
+.button:hover{
+    color: #0B1919;
+    background-color: #BAE249;
+}
+.green-cont a:hover{
+    color: #688B05;
+}
+.green-cont a:active{
+    border: 1px solid #688B05;
 }
