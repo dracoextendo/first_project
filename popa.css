@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 *{
     margin: 0%;
     padding: 0%;
@@ -21,10 +24,14 @@
 a{
     text-decoration: none;
     color: white;
+    transition: color 0.3s;
 }
 .spisok a{
     margin-right: 64px;
-    
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
 }
 .part2{
     display: flex;
@@ -53,23 +60,33 @@ a{
 }
 .text-banner a{
     color: #BAE249;
+    margin-top: 24px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+
     display: flex;
+
 }
 .text-banner{
     color: white;
     padding-bottom: 115px;
     padding-top: 115px;
 }
+
 .text-banner h1{
     width: 688px;
     line-height: 60px;
     font-size: 60px;
+    font-family: 'Cormorant';
+    font-weight: 700;
 }
 .text-banner p{
     width: 635px;
-    line-height: 24px;
+    line-height: 150%;
     font-size: 16px;
     margin-top: 16px;
+    font-family: 'Open Sans';
+    font-weight: 400;
     margin-bottom: 24px;
 }
 /* слайдер */
@@ -106,6 +123,9 @@ a{
     margin-top: 10px;
     padding-right: 20px;
     padding-left: 20px;
+    font-family: 'Cormorant';
+    font-weight: 700;
+
 }
 
 .card p {
@@ -114,6 +134,9 @@ a{
     font-size: 16px;
     padding-right: 20px;
     padding-left: 20px;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: 400;
 }
 .button {
     background-color:#1D2F30;
@@ -125,6 +148,10 @@ a{
     margin-left: 20px;
     margin-bottom: 24px;
     margin-right: 94px;
+    font-size: 16px;
+    margin-top: 16px;
+    font-family: 'Open Sans';
+    font-weight: 400;
 }
 .nav-buttons {
     
@@ -148,6 +175,10 @@ a{
 }
 .nav-buttons p{
     margin-top: 10px;
+    color: #FFFFFF;
+    font-family: 'Cormorant';
+    font-weight: 700;
+    font-size: 24px;
 }
 .container-img{
     display: flex;
@@ -183,6 +214,9 @@ a{
     margin-top: 16px;
     margin-right: 39px;
     margin-bottom: 8px;
+    font-family: 'Cormorant';
+    font-size: 24px;
+    font-weight: 700;
 }
 .green-cont .pi{
     padding-top: 60px;
@@ -190,7 +224,17 @@ a{
     padding-right: 16px;
     width: 232px;
     height: 312px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
 }
+
+.green-cont a{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 700;
+}
+
 .container-bottom{
     background-image: url(denis.jpg);
     background-position: center;
@@ -204,16 +248,24 @@ fieldset{
 .container-bottom h3{
     padding-top: 60px;
     margin-bottom: 16px;
-    font-size: 42px;
     color: #FFFFFF;
+    font-size: 48px;
+    font-family: 'Cormorant';
+    font-style: italic;
 }
 .container-bottom p{
     color: #FFFFFF;
     margin-bottom: 24px;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    line-height: 150%;
+    font-weight: 400;
 }
 .kaka h2{
     margin-top: 57px;
-    font-size: 42px;
+    font-size: 48px;
+    font-family: 'Cormorant';
+    font-style: italic;
 }
 .form1{
     display: block;
@@ -228,6 +280,9 @@ fieldset{
     background-color: #BAE249;
     border: none;
     margin-bottom: 60px;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: 700;
 }
 .footer-background{
     background-color:#0B1919;
@@ -248,9 +303,6 @@ a:hover{
     color: #bae250;
 }
 
-a:active{
-    border: 1px solid #bae250;
-}
 a:disabled{
     color: #688B05;
 }
