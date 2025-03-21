@@ -63,6 +63,9 @@ a{
     margin-top: 24px;
     font-family: 'Open Sans';
     font-weight: 700;
+
+    display: flex;
+
 }
 .text-banner{
     color: white;
@@ -84,6 +87,7 @@ a{
     margin-top: 16px;
     font-family: 'Open Sans';
     font-weight: 400;
+    margin-bottom: 24px;
 }
 /* слайдер */
 .slider-container {
@@ -356,7 +360,7 @@ a:disabled{
         display: flex;
     }
     .spisok a{
-        margin-right: 0px;
+        margin-right: 30px;
     }
     .menu{
         display: flex;
@@ -365,6 +369,8 @@ a:disabled{
     .container-img{
         display: flex;
         flex-direction: column;
+        margin-bottom: 0px;
+        padding-bottom: 32px;
     }
     .container-img img{
         height: 100%;
@@ -390,4 +396,32 @@ a:disabled{
     .container-img .fotka{
         width: 96%;
     }
-}
+    .text-banner h1{
+        width: auto;
+        margin-bottom: 30px;
+
+    }
+    .text-banner p{
+        display: none;
+    }
+    .text-banner{
+        padding-bottom: 30px;
+        padding-top: 69px;
+    }
+    .part1 .spisok{
+        position: absolute;
+        top: 75px;
+        left: 32px;
+    }
+    .part2 img{
+        margin-right: 32px;
+    }
+    .part2{
+        width: 30%;
+    }
+    .container-bottom{
+        display: none;
+    }
+    .footer-background{
+        display: none;
+    }
